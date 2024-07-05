@@ -4,6 +4,7 @@ server:
 ## Classic Eureka configuration
 eureka:
   instance:
+    hostname: ${HOSTNAME:localhost}
     preferIpAddress: false
     non-secure-port-enabled: true
     secure-port-enabled: false
